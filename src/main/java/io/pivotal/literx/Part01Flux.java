@@ -32,7 +32,8 @@ public class Part01Flux {
 
 	// TODO Create a Flux from a List that contains 2 values "foo" and "bar"
 	Flux<String> fooBarFluxFromList() {
-		return Flux.fromIterable(Arrays.asList("foo","bar")); //TODO 얘 왜 에러 나는거임 대체
+		return null;
+		//return Flux.fromIterable(Arrays.asList("foo","bar")); //TODO 얘 왜 에러 나는거임 대체
 	}
 
 //========================================================================================
